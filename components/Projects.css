@@ -1,0 +1,15 @@
+.projects {
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .projects h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
